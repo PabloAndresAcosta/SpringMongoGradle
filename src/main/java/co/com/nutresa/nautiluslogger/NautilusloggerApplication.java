@@ -23,7 +23,6 @@ public class NautilusloggerApplication implements CommandLineRunner {
 		//repository.deleteAll();
 
 		// save a couple of customers
-		repository.save(new Customer("Cute", "Pie"));
 		repository.save(new Customer("Jeniffer", "Acosta"));
 
 		// fetch all customers
